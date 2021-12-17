@@ -50,7 +50,7 @@ var db = mongojs('test', []);
 /*in the following section we prepared our URL as well as the parameters that will be added and the header of
 the HTTP request*/
 
-let url = new URL('https://api.apmterminals.com/berthing/berthing/GetBerthingV2');
+let url = new URL('The link I used to extract JSON data from');
 params={terminal: 'MAPTM02', fromDate: big, toDate: end};
 Object.keys(params).forEach(key => url.searchParams.append(key, params[key]))
 let headers = {
